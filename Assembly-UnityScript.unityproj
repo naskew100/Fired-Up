@@ -50,14 +50,17 @@
      <None Include="Assets\Realistic Effects Pack\Shaders\GlowAdditive.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\Matrix\Additive.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\Mobile\Distortion\DistortionCullOff.shader" />
+     <None Include="Assets\Complete_Home_Interior_Pack\NEKOBOLT_Demo_Packs\Nekobolt_Demo_Packs_Readme.txt" />
      <None Include="Assets\Realistic Effects Pack\Shaders\ParticleAdd.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\ParticleAddNoSmooth.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\Mobile\Water.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\Distortion\Free\FreeDistortionCullBack.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\Particles.shader" />
+     <None Include="Assets\Complete_Home_Interior_Pack\NEKOBOLT_Demo_Packs\Survivalist_Health_Pack_DEMO\UAS_SHP_Readme.txt" />
      <None Include="Assets\Realistic Effects Pack\Shaders\IceShaderDistortion.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\Water.shader" />
      <None Include="Assets\Realistic Effects Pack\Readme.txt" />
+     <None Include="Assets\Complete_Home_Interior_Pack\README.txt" />
      <None Include="Assets\Realistic Effects Pack\Shaders\Distortion\DistortionParticlesCutout.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\AlphaBlended 1.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\Matrix\GlowAdditive.shader" />
@@ -70,6 +73,7 @@
      <None Include="Assets\Realistic Effects Pack\Shaders\Mobile\Distortion\DistortionParticlesCutout.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\DiffuseRim.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\Distortion\DistortionCullOff.shader" />
+     <None Include="Assets\Complete_Home_Interior_Pack\CHIP_Prefabs\PRE_Ceilings\HSHP_PRE_CEI_Ceiling_preview.txt" />
      <None Include="Assets\Realistic Effects Pack\Shaders\GlowAdditiveRGB.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\Distortion\DistortionCullBack.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\MultiplyDouble.shader" />
