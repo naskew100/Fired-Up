@@ -91,9 +91,11 @@
      <Compile Include="Assets\Realistic Effects Pack\Scripts\Share\RotateAround.cs" />
      <Compile Include="Assets\Realistic Effects Pack\Scripts\Share\SetPositionOnHit.cs" />
      <Compile Include="Assets\Realistic Effects Pack\Scripts\Share\UVTextureAnimator.cs" />
-     <Compile Include="Assets\Scripts\Father.cs" />
-     <Compile Include="Assets\Scripts\Grandpa.cs" />
-     <Compile Include="Assets\Scripts\Son.cs" />
+     <Compile Include="Assets\Scripts\Fire\ElectricFire.cs" />
+     <Compile Include="Assets\Scripts\Fire\Fire.cs" />
+     <Compile Include="Assets\Scripts\Fire\LiquidFire.cs" />
+     <Compile Include="Assets\Scripts\Fire\SolidFire.cs" />
+     <Compile Include="Assets\Scripts\Utilities\FU.cs" />
      <None Include="Assets\Realistic Effects Pack\Shaders\IceVert 1.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\GlowAdditive.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\Matrix\Additive.shader" />
