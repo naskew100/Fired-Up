@@ -1,11 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Father : Grandpa {
-	
+public class SolidFire : Fire {
 
-	public override void DoThing ()
-	{
-		Debug.Log("Father");
-	}
+
 }

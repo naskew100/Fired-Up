@@ -1,13 +1,32 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Fire/Fire.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/GearSelector.cs">
     <Files>
-      <File FileName="Assets/Scripts/Utilities/FU.cs" Line="8" Column="24" />
-      <File FileName="Assets/Scripts/Fire/Fire.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Fire/Fire.cs" Line="21" Column="38" />
+      <File FileName="Assets/Scripts/Fire/ElectricFire.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Fire/LiquidFire.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Fire/SolidFire.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Extinguishers/CO2Jetpack.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Extinguishers/Hose.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Extinguishers/IceGrenade.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Utilities/FU.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Extinguishers/BlackHoleVacuum.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Extinguishers/BlackHoleGravity.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/Movement.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/GearEnums.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/GearSelector.cs" Line="10" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True" selected="True" />
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Scripts" expanded="True">
+              <Node name="Player" expanded="True">
+                <Node name="GearSelector.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

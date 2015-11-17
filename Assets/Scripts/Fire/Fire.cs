@@ -11,7 +11,7 @@ public abstract class Fire : MonoBehaviour {
 	private LayerMask igniterMask;
 	[SerializeField]
 	private LayerMask extinguishMask;
-
+	private float fireHealth;
 
 	void Awake(){
 
@@ -19,21 +19,21 @@ public abstract class Fire : MonoBehaviour {
 
 
 	void OnTriggerEnter(Collider2D col){
-		if (col.gameObject.layer & extinguishMask){
+		if (igniterMask & 1<<col.gameObject.layer){
+			StartCoroutine(IgniteObject(col));
+		}
+
+	}
+
+	void OnTriggerStay(Collider2D col){
+		if (extinguishMask & 1<<col.gameObject.layer){
 
 		}
-		else if (col.gameObject.layer & igniterMask){
-			
-		}
 	}
 
-	protected abstract void Extinguish(){
-
-	}
-
-	protected abstract void Ignite(){
-		
-	}
+	protected abstract IEnumerator Extinguish(Collider col);
+	protected abstract IEnumerator IgniteObject(Collider col);
+	protected abstract IEnumerator Spread();
 
 
 }

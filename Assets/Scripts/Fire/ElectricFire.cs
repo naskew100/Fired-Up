@@ -1,15 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ElectricFire : MonoBehaviour {
+public class ElectricFire : Fire {
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 	
 	}
 	
-	// Update is called once per frame
-	void Update () {
+	protected override IEnumerator Extinguish(Collider col){
+
+	}
 	
+	protected override IEnumerator IgniteObject(Collider col){
+		
+	}
+
+	protected override IEnumerator Spread(){
+		
 	}
 }
