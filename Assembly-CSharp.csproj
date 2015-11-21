@@ -105,6 +105,11 @@
      <Compile Include="Assets\Scripts\Player\GearSelector.cs" />
      <Compile Include="Assets\Scripts\Player\Head.cs" />
      <Compile Include="Assets\Scripts\Player\Legs.cs" />
+     <Compile Include="Assets\Scripts\UI\BlackHole_UI.cs" />
+     <Compile Include="Assets\Scripts\UI\CO2_UI.cs" />
+     <Compile Include="Assets\Scripts\UI\Hose_UI.cs" />
+     <Compile Include="Assets\Scripts\UI\Ice_UI.cs" />
+     <Compile Include="Assets\Scripts\UI\UI_Animations.cs" />
      <Compile Include="Assets\Scripts\Utilities\FU.cs" />
      <Compile Include="Assets\Scripts\Utilities\FollowGameObject.cs" />
      <None Include="Assets\Realistic Effects Pack\Shaders\IceVert 1.shader" />
@@ -154,17 +159,11 @@
      <None Include="Assets\Realistic Effects Pack\Shaders\IceVert.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\Projectors\ProjectorBlended.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\WaterFree.shader" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

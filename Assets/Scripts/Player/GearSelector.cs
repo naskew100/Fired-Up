@@ -21,12 +21,24 @@ public class GearSelector : MonoBehaviour {
 	private float timeToWaitToThrow;
 	private bool canThrowGrenade;
 
+	[SerializeField]
+	private Hose_UI hoseUI;
+	[SerializeField]
+	private Ice_UI iceUI;
+	[SerializeField]
+	private BlackHole_UI blackHoleUI;
+	[SerializeField]
+	private CO2_UI CO2UI;
+
 	void Awake(){
 		gearInventory = new Dictionary<GearEnum, int>();
 		gearInventory.Add(GearEnum.FireHose,int.MaxValue);
 		gearInventory.Add(GearEnum.IceGrenade,2);
 		gearInventory.Add(GearEnum.BlackHole,3);
 		gearInventory.Add(GearEnum.CO2Jetpack,10);
+
+		iceUI.UpdateInventory(gearInventory[GearEnum.IceGrenade]);
+		blackHoleUI.UpdateInventory(gearInventory[GearEnum.BlackHole]);
 
 		throwForce = 500f;
 		timeToWaitToThrow = 2f;
@@ -60,7 +72,17 @@ public class GearSelector : MonoBehaviour {
 	}
 
 	void HighlightActiveGearIcon(){
-		Debug.Log(CurrentGear.ToString() +"activated!");
+		if (CurrentGear == GearEnum.FireHose) 	hoseUI.ActivateUI();
+		else 								  	hoseUI.DeActivateUI();
+
+		if (CurrentGear == GearEnum.IceGrenade) iceUI.ActivateUI();
+		else 									iceUI.DeActivateUI();
+
+		if (CurrentGear == GearEnum.BlackHole) 	blackHoleUI.ActivateUI();
+		else 									blackHoleUI.DeActivateUI();
+
+		if (CurrentGear == GearEnum.CO2Jetpack) CO2UI.ActivateUI();
+		else 									CO2UI.DeActivateUI();
 	}
 
 	void UseGear(){
@@ -88,10 +110,12 @@ public class GearSelector : MonoBehaviour {
 		if (thingToThrow == GearEnum.IceGrenade){
 			objectToSpawn = iceGrenade;
 			gearInventory[GearEnum.IceGrenade]--;
+			iceUI.UpdateInventory(gearInventory[GearEnum.IceGrenade]);
 		}
 		else {
 			objectToSpawn = blackHole;
 			gearInventory[GearEnum.BlackHole]--;
+			blackHoleUI.UpdateInventory(gearInventory[GearEnum.BlackHole]);
 		}
 
 		canThrowGrenade = false;
