@@ -18,15 +18,15 @@ public abstract class Fire : MonoBehaviour {
 	}
 
 
-	void OnTriggerEnter(Collider2D col){
-		if (igniterMask & 1<<col.gameObject.layer){
+	void OnTriggerEnter(Collider col){
+		if (FU.Tools.IsInLayerMask(col.gameObject, igniterMask)){
 			StartCoroutine(IgniteObject(col));
 		}
 
 	}
 
-	void OnTriggerStay(Collider2D col){
-		if (extinguishMask & 1<<col.gameObject.layer){
+	void OnTriggerStay(Collider col){
+		if (FU.Tools.IsInLayerMask(col.gameObject, extinguishMask)){
 
 		}
 	}

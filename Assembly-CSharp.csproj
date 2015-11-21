@@ -91,8 +91,7 @@
      <Compile Include="Assets\Realistic Effects Pack\Scripts\Share\RotateAround.cs" />
      <Compile Include="Assets\Realistic Effects Pack\Scripts\Share\SetPositionOnHit.cs" />
      <Compile Include="Assets\Realistic Effects Pack\Scripts\Share\UVTextureAnimator.cs" />
-     <Compile Include="Assets\Scripts\Extinguishers\BlackHoleGravity.cs" />
-     <Compile Include="Assets\Scripts\Extinguishers\BlackHoleVacuum.cs" />
+     <Compile Include="Assets\Scripts\Extinguishers\BlackHole.cs" />
      <Compile Include="Assets\Scripts\Extinguishers\CO2Jetpack.cs" />
      <Compile Include="Assets\Scripts\Extinguishers\Extinguisher.cs" />
      <Compile Include="Assets\Scripts\Extinguishers\Hose.cs" />
@@ -101,10 +100,13 @@
      <Compile Include="Assets\Scripts\Fire\Fire.cs" />
      <Compile Include="Assets\Scripts\Fire\LiquidFire.cs" />
      <Compile Include="Assets\Scripts\Fire\SolidFire.cs" />
+     <Compile Include="Assets\Scripts\Player\Gear.cs" />
      <Compile Include="Assets\Scripts\Player\GearEnums.cs" />
      <Compile Include="Assets\Scripts\Player\GearSelector.cs" />
-     <Compile Include="Assets\Scripts\Player\Movement.cs" />
+     <Compile Include="Assets\Scripts\Player\Head.cs" />
+     <Compile Include="Assets\Scripts\Player\Legs.cs" />
      <Compile Include="Assets\Scripts\Utilities\FU.cs" />
+     <Compile Include="Assets\Scripts\Utilities\FollowGameObject.cs" />
      <None Include="Assets\Realistic Effects Pack\Shaders\IceVert 1.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\GlowAdditive.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\Matrix\Additive.shader" />
@@ -152,11 +154,17 @@
      <None Include="Assets\Realistic Effects Pack\Shaders\IceVert.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\Projectors\ProjectorBlended.shader" />
      <None Include="Assets\Realistic Effects Pack\Shaders\WaterFree.shader" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

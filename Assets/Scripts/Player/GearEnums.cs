@@ -1,6 +1,6 @@
-﻿public static enum GearEnum{
+﻿public enum GearEnum{
 	FireHose = 0,
-	CO2Jetpack = 1,
-	IceGrenade = 2,
-	BlackHole = 3
+	IceGrenade = 1,
+	BlackHole = 2,
+	CO2Jetpack = 3
 }
