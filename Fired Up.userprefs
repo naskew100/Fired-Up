@@ -1,12 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/SonicHoseUI_Editor.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI/SonicHose_UI.cs">
     <Files>
       <File FileName="Assets/Scripts/UI/BlackDeath_UI.cs" Line="33" Column="1" />
       <File FileName="Assets/Scripts/Gear/Extinguishers/BlackDeath.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Gear/Extinguishers/SonicHose.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/UI/SonicHose_UI.cs" Line="12" Column="83" />
-      <File FileName="Assets/Editor/SonicHoseUI_Editor.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UI/SonicHose_UI.cs" Line="24" Column="5" />
+      <File FileName="Assets/Editor/SonicHoseUI_Editor.cs" Line="30" Column="4" />
+      <File FileName="Assets/Editor/GrenadeTosser_Editor.cs" Line="23" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,14 +24,14 @@
                 <Node name="Extinguishers" expanded="True" />
               </Node>
               <Node name="Player" expanded="True" />
-              <Node name="UI" expanded="True" />
+              <Node name="UI" expanded="True">
+                <Node name="SonicHose_UI.cs" selected="True" />
+              </Node>
               <Node name="Utilities" expanded="True" />
             </Node>
           </Node>
           <Node name="Assembly-CSharp-Editor" expanded="True">
-            <Node name="Editor" expanded="True">
-              <Node name="SonicHoseUI_Editor.cs" selected="True" />
-            </Node>
+            <Node name="Editor" expanded="True" />
           </Node>
         </State>
       </Pad>
