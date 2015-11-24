@@ -3,10 +3,8 @@ using System.Collections;
 
 public class UI_Animations : MonoBehaviour {
 
-	[SerializeField]
-	private TextMesh inventoryQuantity;
-	[SerializeField]
-	private Animator UIAnimator;
+	[SerializeField]	private TextMesh inventoryQuantity;
+	[SerializeField]	private Animator UIAnimator;
 	
 	
 	public virtual void ActivateUI(){

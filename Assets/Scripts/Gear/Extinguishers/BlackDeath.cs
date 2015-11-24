@@ -3,14 +3,14 @@ using System.Collections;
 using FU;
 public class BlackDeath : MonoBehaviour {
 	
-	private float holeRadius;
-	private float pullForce;
 	[SerializeField]	private GameObject grenade;
 	[SerializeField]	private GameObject blackHoleEffect;
 	[SerializeField]	private GameObject soundEffect;
 	[SerializeField]	private EffectSettings effectSettings;
 	[SerializeField]	private ParticleSystem rockParticles;
 	[SerializeField]	private LayerMask layersToPull;
+	private float holeRadius;
+	private float pullForce;
 	private bool singularizing;
 	private float timeToBeginPulling;
 	private float timeToAppear;

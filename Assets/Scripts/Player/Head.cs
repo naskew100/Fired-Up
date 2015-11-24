@@ -3,8 +3,7 @@ using System.Collections;
 using FU;
 public class Head : MonoBehaviour {
 
-	[SerializeField]
-	private Transform playerTransform;
+	[SerializeField]	private Transform playerTransform;
 	private float rotationSpeed;
 	private float minAxisInput;
 	private float lowBound;

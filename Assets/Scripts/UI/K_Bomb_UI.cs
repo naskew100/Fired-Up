@@ -4,10 +4,8 @@ using System.Collections;
 public class K_Bomb_UI : UI_Animations {
 
 
-	[SerializeField]
-	private ParticleSystem iceFog;
-	[SerializeField]
-	private ParticleSystem iceEruption;
+	[SerializeField]	private ParticleSystem iceFog;
+	[SerializeField]	private ParticleSystem iceEruption;
 
 	void Awake(){
 		StartCoroutine (PlayIce());

@@ -3,14 +3,14 @@ using System.Collections;
 
 public class K_Bomb : MonoBehaviour {
 
-	private float timeToExplode;
-	[SerializeField]
-	private GameObject iceExplosion;
-	[SerializeField]
+    #region Init
+    [SerializeField]	private GameObject iceExplosion;
+	[SerializeField]	private float timeToExplode;
 	private LayerMask extinguishableMask;
 	private float explosionRadius;
+    #endregion
 
-	void Awake(){
+    void Awake(){
 		timeToExplode= 2f;
 		explosionRadius = 5f;
 		StartCoroutine (Explode());

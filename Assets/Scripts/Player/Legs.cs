@@ -4,10 +4,8 @@ using FU;
 
 public class Legs : MonoBehaviour {
 
-	[SerializeField]
-	private	Rigidbody playerBody;
-	[SerializeField]
-	private Transform feetTran;
+	[SerializeField]	private	Rigidbody playerBody;
+	[SerializeField]	private Transform feetTran;
 	private float minAxisInput;
 	private float speed;
 	private float maxSpeed;

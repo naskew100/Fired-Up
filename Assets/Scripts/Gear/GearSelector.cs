@@ -5,6 +5,8 @@ using FU;
 
 public class GearSelector : Inventory {
 	
+    [SerializeField] private Animator UIMovementAnimator;
+
 	void Start(){
 		CurrentGear = 0;
 		sonicHose_UI.ActivateUI();
@@ -18,7 +20,7 @@ public class GearSelector : Inventory {
 	}
 
 	void ToggleGear(){
-		if ((int)CurrentGear == GearEnum.GetNames(typeof(GearEnum)).Length-1){
+		if ((int)CurrentGear == Enum.GetNames(typeof(GearEnum)).Length-1){
 			CurrentGear = GearEnum.SonicHose;
 		}
 		else{
@@ -29,7 +31,8 @@ public class GearSelector : Inventory {
 		}
 
 		HighlightActiveGearIcon();
-	}
+        UIMovementAnimator.SetInteger("AnimState", (int)CurrentGear);
+    }
 
 	void HighlightActiveGearIcon(){
 		if (CurrentGear == GearEnum.SonicHose) 	sonicHose_UI.ActivateUI();
@@ -41,7 +44,4 @@ public class GearSelector : Inventory {
 		if (CurrentGear == GearEnum.BlackDeath) blackDeath_UI.ActivateUI();
 		else 									blackDeath_UI.DeActivateUI();
 	}
-
-
-
 }

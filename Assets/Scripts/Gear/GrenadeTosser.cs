@@ -4,10 +4,8 @@ using FU;
 
 public class GrenadeTosser : Inventory {
 	
-	[SerializeField]
-	private GameObject k_Bomb;
-	[SerializeField]
-	private GameObject blackDeath;
+	[SerializeField]	private GameObject k_Bomb;
+	[SerializeField]	private GameObject blackDeath;
 
 	private float throwForce;
 	private float timeToWaitToThrow;
