@@ -29,29 +29,71 @@ namespace FU{
 
 		public static class Objects{
 			public static int furniture = 17;
+			public static int ground = 18;
 
 			public static string furnitureString = "Furniture";
+			public static string groundString = "Ground";
 		}
 
 		public static class People{
-			public static int NPC = 18;
-			public static int you = 19;
+			public static int NPC = 19;
+			public static int you = 20;
 
-			public static int NPCString = "NPC";
-			public static int youString = "You";
+			public static string NPCString = "NPC";
+			public static string youString = "You";
 		}
 	}
 	#endregion
 
 	#region Controls
 	public static class Controls{
+		public static void SetControls (){
+			if (Application.platform == RuntimePlatform.OSXPlayer ||
+			    Application.platform == RuntimePlatform.OSXEditor ||
+			    Application.platform == RuntimePlatform.OSXDashboardPlayer ||
+			    Application.platform == RuntimePlatform.OSXWebPlayer){
+			
+				Forward = "Mac_Forward";
+				Sideways = "Mac_Sideways";
+				LookUp = "Mac_LookUp";
+				LookSideways = "Mac_LookSideways";
+				Jump = "Mac_Jump";
+				FightFire = "Mac_FightFire";
+				ToggleGear = "Mac_ToggleGear";
+			}
+			else{
+				Forward = "Win_Forward";
+				Sideways = "Win_Sideways";
+				LookUp = "Win_LookUp";
+				LookSideways = "Win_LookSideways";
+				
+				Jump = "Win_Jump";
+				FightFire = "Win_FightFire";
+				ToggleGear = "Win_ToggleGear";
+			}
+		}
 
-		public static string Forward = "Forward";
-		public static string Sideways = "Sideways";
-		public static string Jump = "Jump";
-		public static string FightFire = "FightFire";
-		public static string ToggleGear = "ToggleGear";
+		public static string Forward;
+		public static string Sideways;
+		public static string LookUp;
+		public static string LookSideways;
+		public static string Jump;
+		public static string FightFire;
+		public static string ToggleGear;
+	}
 
+	#endregion
+
+	#region Tools (layerinMask)
+	public static class Tools{
+
+		public static bool IsInLayerMask(GameObject obj, LayerMask mask){
+			return ((mask.value & (1<< obj.layer))>0);
+		}
 	}
 	#endregion
 }
+
+#region ExtensionMethods
+
+#endregion

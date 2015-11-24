@@ -9,14 +9,14 @@ public class ElectricFire : Fire {
 	}
 	
 	protected override IEnumerator Extinguish(Collider col){
-
+		yield return null;
 	}
 	
 	protected override IEnumerator IgniteObject(Collider col){
-		
+		yield return null;
 	}
 
 	protected override IEnumerator Spread(){
-		
+		yield return null;
 	}
 }

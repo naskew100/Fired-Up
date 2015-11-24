@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BlackHoleVacuum : MonoBehaviour {
+public class Gear : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

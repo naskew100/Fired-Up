@@ -1,28 +1,21 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/GearSelector.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI/CO2_UI.cs">
     <Files>
-      <File FileName="Assets/Scripts/Fire/Fire.cs" Line="21" Column="38" />
-      <File FileName="Assets/Scripts/Fire/ElectricFire.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Fire/LiquidFire.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Fire/SolidFire.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Extinguishers/CO2Jetpack.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Extinguishers/Hose.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Extinguishers/IceGrenade.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Utilities/FU.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Extinguishers/BlackHoleVacuum.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Extinguishers/BlackHoleGravity.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Player/Movement.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Player/GearEnums.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Player/GearSelector.cs" Line="10" Column="26" />
+      <File FileName="Assets/Scripts/Player/GearSelector.cs" Line="85" Column="22" />
+      <File FileName="Assets/Scripts/UI/BlackHole_UI.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UI/Hose_UI.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UI/UI_Animations.cs" Line="54" Column="1" />
+      <File FileName="Assets/Scripts/UI/CO2_UI.cs" Line="6" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="Scripts" expanded="True">
-              <Node name="Player" expanded="True">
-                <Node name="GearSelector.cs" selected="True" />
+              <Node name="Player" expanded="True" />
+              <Node name="UI" expanded="True">
+                <Node name="CO2_UI.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -33,5 +26,7 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Assets/Scripts/Player/GearSelector.cs" line="52" offsetX="252" offsetY="765" expression="CurrentGear" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
 </Properties>
